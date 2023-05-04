@@ -1,0 +1,115 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/index.css">
+    <script src="JS/index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="banner">
+                <img src="IMAGES/Background1.png" alt="" style="max-width: 100%;
+                height: auto;">
+                <div class="tittle"
+                    style="display: flex; flex-direction: column; align-items: center; justify-content: end;">
+                    <h3>
+                        Tư Vấn Online
+                    </h3>
+                </div>
+                <img src="IMAGES/Background2.png" alt="" style="max-width: 100%;
+                height: auto;">
+            </div>
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+            <div class="menu">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary" id="reload-btn">Trang Chủ
+                    </button>
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Đặt
+                        Lịch</button>
+                    <!-- Modal -->
+                    <div id="myModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Đặt lịch khám online</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <label for="usr">Mã bệnh nhân</label>
+                                        <input type="text" class="form-control" id="usr" placeholder="Mã bệnh nhân">
+                                        <div class="mess"></div>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="pwd">Password</label>
+                                        <input type="password" class="form-control" id="pwd"  placeholder="Mật khẩu">
+                                        <div class="mess"></div>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="days">Ngày khám</label>
+                                        <input type="date" class="form-control" id="days">
+                                        <div class="mess"></div>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="days">Loại dịch vụ</label>
+                                        <div class="checkbox" style="display: flex; align-items: center; justify-content: space-around;">
+                                            <label><input type="checkbox"> Khám bệnh theo yêu cầu</label>
+                                            <label><input type="checkbox"> Điều trị ngoại trú</label>
+                                            <label><input type="checkbox"> Bác sĩ theo yêu cầu</label>
+                                          </div>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="days">Chuyên khoa</label>
+                                      </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        </div>
+        <div class="mid">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Mã bệnh nhân</th>
+                        <th>Mật khẩu</th>
+                        <th>Ngày khám</th>
+                        <th>Phụ thu dịch vụ</th>
+                        <th>Chuyên khoa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>test</td>
+                        <td>test</td>
+                        <td>test</td>
+                        <td>test</td>
+                        <td>test</td>
+                        <td>test</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
